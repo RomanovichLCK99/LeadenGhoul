@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4862074fb572747a1831facbf4c73c, type: 3}
+  m_Name: BlueDungeonSettings
+  m_EditorClassIdentifier: 
+  floorRuleTile: {fileID: 11400000, guid: 75d33d715f0e8bb439dcac25fa028681, type: 2}
+  wallRuleTile: {fileID: 11400000, guid: cf29f808d3395f34eb84ede7c6b3b8f7, type: 2}
+  shadowRuleTile: {fileID: 11400000, guid: f45899a7698c5f54b954dd5b81a3d1e0, type: 2}
+  randomErosion: {fileID: 11400000, guid: faafc387661ac294cad3998d80c26f1f, type: 2}
+  ditherRuleTile: {fileID: 11400000, guid: e1fd32dccc2c7ca41aeb9725fac8ba83, type: 2}
+  topWallTile: {fileID: 11400000, guid: c1f8017918e67b54a84bfe4a3d1c8005, type: 2}
+  botWallTile: {fileID: 11400000, guid: fb291d2b58f28074092060ff6b21353b, type: 2}
+  emptyTile: {fileID: 11400000, guid: 203d796c6ed5dbc4aa050c2ca57946f9, type: 2}
+  roomsArray:
+  - {fileID: 11400000, guid: 7919c60f4cac810439846efbaac6eb2a, type: 2}
+  - {fileID: 11400000, guid: 8ad94ac68e2e72248b677c20d9741d22, type: 2}
+  - {fileID: 11400000, guid: 7a945abfb2d61014b9fceb12db81509f, type: 2}
+  - {fileID: 11400000, guid: c49a51732ae90cb49b0706da895f7007, type: 2}
+  - {fileID: 11400000, guid: b7c836c3620d9f848a248a274422e18a, type: 2}
+  - {fileID: 11400000, guid: 8b0021248fbeb8346907d7ce750120ed, type: 2}
+  customLights:
+  - {fileID: 6552246211430725065, guid: f540eaa2d8f61544db6dd9e452d15347, type: 3}
+  basicRoomPrefab: {fileID: 1397619212925232462, guid: 7d62332a66a24d3418fac7293a4b320a,
+    type: 3}
+  basicDoorPrefab: {fileID: 1044403981249561920, guid: 4c727a8f270af94498c99a77cee87fb8,
+    type: 3}
+  deviationRate: 70
+  maxRouteLength: 8
+  maxRoutes: 5
+  spacing: 24
+  extraCorridorRate: 25
+  minNumberOfRooms: 7
+  maxNumberOfRooms: 10
