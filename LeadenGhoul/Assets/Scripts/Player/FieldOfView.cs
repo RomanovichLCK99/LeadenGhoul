@@ -84,9 +84,10 @@ public class FieldOfView : MonoBehaviour
 
                 Vector3 vertexPos;
 
+                // Place Vertex in a Vertical Wall
+
                 if (upDot > 0 && upPower > rightPower)
                 {
-
                     vertexPos = hit.point + new Vector2(
                         (Mathf.Clamp( (1f / Vector2.Distance(origin, hit.point)) , 0.05f, 0.5f)) * 0.5f * Mathf.Cos(angle * Mathf.Deg2Rad),
                         Mathf.Clamp((viewDistance - Vector2.Distance(origin, hit.point)) * specialMultiplier * (1f / -Mathf.Sin(angle * Mathf.Deg2Rad) + 2f), 0f, 2f)
