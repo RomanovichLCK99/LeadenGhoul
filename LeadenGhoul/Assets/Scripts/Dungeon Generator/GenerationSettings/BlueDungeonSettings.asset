@@ -33,10 +33,10 @@ MonoBehaviour:
     type: 3}
   basicDoorPrefab: {fileID: 1044403981249561920, guid: 4c727a8f270af94498c99a77cee87fb8,
     type: 3}
-  deviationRate: 70
-  maxRouteLength: 8
-  maxRoutes: 5
+  deviationRate: 81
+  maxRouteLength: 17
+  maxRoutes: 14
   spacing: 24
   extraCorridorRate: 25
-  minNumberOfRooms: 7
-  maxNumberOfRooms: 10
+  minNumberOfRooms: 27
+  maxNumberOfRooms: 33
